@@ -1,0 +1,19 @@
+dependencies:
+  espressif/usb_device_uac:
+    component_hash: 439d3909753b87cf85ef0116782830feb97eb96b13d7ec3124c16c71d0b5ab67
+    source:
+      type: service
+    version: 0.1.1
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.4.0
+  leeebo/tinyusb_src:
+    component_hash: f8a386b696474c2b20482b662319200e4a2ce9cae8fa3ae7830d3929f03780c8
+    source:
+      type: service
+    version: 0.16.0~6
+manifest_hash: 7a2f1c9e8b3d5f6a0e4d2c1b8f7e3a9d6c5b2f1e8a7d4c0b9f6e3d2a1c8b7f5e4
+target: esp32s3
+version: 1.0.0
