@@ -1,4 +1,9 @@
 dependencies:
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    source:
+      type: service
+    version: 0.5.3
   espressif/usb_device_uac:
     component_hash: 439d3909753b87cf85ef0116782830feb97eb96b13d7ec3124c16c71d0b5ab67
     source:
@@ -14,6 +19,6 @@ dependencies:
     source:
       type: service
     version: 0.16.0~6
-manifest_hash: 7a2f1c9e8b3d5f6a0e4d2c1b8f7e3a9d6c5b2f1e8a7d4c0b9f6e3d2a1c8b7f5e4
+manifest_hash: 6138bb366c2f36feede9d076b3f4001fd7249e1670887a00f2522ed575ddf55e
 target: esp32s3
 version: 1.0.0
